@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beautiful 4-bedroom family home for sale by owner. Modern amenities, great location, competitive price. Schedule your viewing today!">
+    <meta name="keywords" content="house for sale, home for sale, real estate, for sale by owner, FSBO">
+    <title>Beautiful Family Home For Sale - 123 Maple Street</title>
+    
+    <!-- Open Graph tags for social sharing -->
+    <meta property="og:title" content="Beautiful Family Home For Sale - 123 Maple Street">
+    <meta property="og:description" content="4BR/3BA home with modern amenities in desirable neighborhood. For Sale By Owner.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/home-exterior.jpg">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "House",
+      "name": "Beautiful Family Home",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Maple Street",
+        "addressLocality": "Your City",
+        "addressRegion": "Your State",
+        "postalCode": "12345"
+      },
+      "numberOfRooms": "4",
+      "numberOfBathroomsTotal": "3",
+      "floorSize": {
+        "@type": "QuantitativeValue",
+        "value": "2,400",
+        "unitCode": "SQF"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "485000",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="fsbo-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-home"></i>
+                <span>Dream Home FSBO</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#details" class="nav-link">Details</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#neighborhood" class="nav-link">Neighborhood</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Beautiful Family Home<br><span class="highlight">For Sale By Owner</span></h1>
+                <p class="hero-subtitle">4 Bedrooms • 3 Bathrooms • 2,400 sq ft • Premium Location</p>
+                <div class="price-tag">
+                    <span class="price">$485,000</span>
+                    <span class="savings">Save on Realtor Fees!</span>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('contact')">
+                        <i class="fas fa-calendar-alt"></i> Schedule Viewing
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('gallery')">
+                        <i class="fas fa-images"></i> View Photos
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Beautiful family home exterior" />
+                <div class="image-overlay">
+                    <div class="quick-stats">
+                        <div class="stat">
+                            <i class="fas fa-bed"></i>
+                            <span>4 BR</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-bath"></i>
+                            <span>3 BA</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-ruler-combined"></i>
+                            <span>2,400 sq ft</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Details -->
+    <section id="details" class="property-details">
+        <div class="container">
+            <h2>Property Details</h2>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <div class="detail-header">
+                        <i class="fas fa-home"></i>
+                        <h3>Property Information</h3>
+                    </div>
+                    <ul class="detail-list">
+                        <li><span>Address:</span> 123 Maple Street, Your City, ST 12345</li>
+                        <li><span>Year Built:</span> 2018</li>
+                        <li><span>Lot Size:</span> 0.25 acres</li>
+                        <li><span>Property Type:</span> Single Family Home</li>
+                        <li><span>Stories:</span> 2</li>
+                        <li><span>Garage:</span> 2-car attached</li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-header">
+                        <i class="fas fa-bed"></i>
+                        <h3>Interior Features</h3>
+                    </div>
+                    <ul class="detail-list">
+                        <li><span>Bedrooms:</span> 4 (Master suite + 3 additional)</li>
+                        <li><span>Bathrooms:</span> 3 full bathrooms</li>
+                        <li><span>Kitchen:</span> Modern with granite countertops</li>
+                        <li><span>Flooring:</span> Hardwood & tile</li>
+                        <li><span>Fireplace:</span> Gas fireplace in living room</li>
+                        <li><span>Laundry:</span> Dedicated laundry room</li>
+                    </ul>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Amenities & Updates</h3>
+                    </div>
+                    <ul class="detail-list">
+                        <li><span>HVAC:</span> Central air & heating (2020)</li>
+                        <li><span>Roof:</span> New roof installed (2021)</li>
+                        <li><span>Appliances:</span> All kitchen appliances included</li>
+                        <li><span>Outdoor:</span> Covered patio & landscaped yard</li>
+                        <li><span>Storage:</span> Walk-in closets & basement</li>
+                        <li><span>Security:</span> Security system included</li>
+                    </ul>
+                </div>
+
+                <div class="detail-card highlight-card">
+                    <div class="detail-header">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h3>Financial Details</h3>
+                    </div>
+                    <ul class="detail-list">
+                        <li><span>Asking Price:</span> $485,000</li>
+                        <li><span>Property Taxes:</span> $4,200/year</li>
+                        <li><span>HOA Fees:</span> None</li>
+                        <li><span>Utilities:</span> Avg $150/month</li>
+                        <li class="savings-highlight">
+                            <span>Your Savings:</span> 
+                            <strong>$14,550+ in realtor commissions!</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <p class="gallery-subtitle">Take a virtual tour of your future home</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item main-photo" onclick="openLightbox(0)">
+                    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Home exterior">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Exterior View</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" onclick="openLightbox(1)">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Living room">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Living Room</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" onclick="openLightbox(2)">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Modern kitchen">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Kitchen</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" onclick="openLightbox(3)">
+                    <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Master bedroom">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Master Bedroom</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" onclick="openLightbox(4)">
+                    <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bathroom">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Master Bathroom</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" onclick="openLightbox(5)">
+                    <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Backyard">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Backyard</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Neighborhood -->
+    <section id="neighborhood" class="neighborhood">
+        <div class="container">
+            <h2>Great Neighborhood</h2>
+            <p class="section-subtitle">Discover what makes this location special</p>
+            
+            <div class="neighborhood-grid">
+                <div class="neighborhood-card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Top-Rated Schools</h3>
+                    <p>Excellent school district with highly rated elementary, middle, and high schools within walking distance.</p>
+                    <ul>
+                        <li>Maple Elementary: 9/10 rating</li>
+                        <li>Central Middle School: 8/10 rating</li>
+                        <li>City High School: 9/10 rating</li>
+                    </ul>
+                </div>
+                
+                <div class="neighborhood-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Shopping & Dining</h3>
+                    <p>Convenient access to shopping centers, restaurants, and entertainment venues.</p>
+                    <ul>
+                        <li>Town Center Mall (5 minutes)</li>
+                        <li>Whole Foods & Target (3 minutes)</li>
+                        <li>20+ restaurants nearby</li>
+                    </ul>
+                </div>
+                
+                <div class="neighborhood-card">
+                    <div class="card-icon">
+                        <i class="fas fa-subway"></i>
+                    </div>
+                    <h3>Transportation</h3>
+                    <p>Easy commute with excellent transportation options and highway access.</p>
+                    <ul>
+                        <li>Metro station (10 minutes)</li>
+                        <li>Highway access (5 minutes)</li>
+                        <li>Airport (25 minutes)</li>
+                    </ul>
+                </div>
+                
+                <div class="neighborhood-card">
+                    <div class="card-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Parks & Recreation</h3>
+                    <p>Beautiful parks and recreational facilities for the whole family.</p>
+                    <ul>
+                        <li>City Park with playground (2 blocks)</li>
+                        <li>Golf course (10 minutes)</li>
+                        <li>Walking trails throughout</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Schedule Your Visit</h2>
+            <p class="section-subtitle">Ready to see your dream home? Contact us today!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>Owner Contact</h3>
+                        <p><strong>John & Sarah Smith</strong></p>
+                        <p>Long-time residents, selling due to relocation</p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>(555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>homeowner@email.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Available</h4>
+                                <p>Mon-Sun, 9AM-7PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <h3>Schedule a Viewing</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name *" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email *" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number *" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="date" id="preferred-date" name="preferred-date" min="" required>
+                        <label for="preferred-date">Preferred Viewing Date</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="time" name="time" required>
+                            <option value="">Select Preferred Time</option>
+                            <option value="morning">Morning (9AM-12PM)</option>
+                            <option value="afternoon">Afternoon (12PM-5PM)</option>
+                            <option value="evening">Evening (5PM-7PM)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Any specific questions or requirements?" rows="4"></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="pre-approved" name="pre-approved">
+                        <label for="pre-approved">I am pre-approved for financing</label>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i>
+                        Request Viewing
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-home"></i> Dream Home FSBO</h3>
+                    <p>Beautiful family home for sale by owner. Save thousands on realtor fees while getting personalized service directly from the owners.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#details">Property Details</a></li>
+                        <li><a href="#gallery">Photo Gallery</a></li>
+                        <li><a href="#neighborhood">Neighborhood</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Property Info</h4>
+                    <ul>
+                        <li>123 Maple Street</li>
+                        <li>Your City, ST 12345</li>
+                        <li>4 BR / 3 BA / 2,400 sq ft</li>
+                        <li>$485,000</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dream Home FSBO. For Sale By Owner. No realtor commissions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-nav">
+                <button class="lightbox-prev" onclick="previousImage()">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="lightbox-next" onclick="nextImage()">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    <div id="success-message" class="success-message">
+        <div class="success-content">
+            <i class="fas fa-check-circle"></i>
+            <h3>Thank You!</h3>
+            <p>Your viewing request has been received. We'll contact you within 24 hours to confirm your appointment.</p>
+            <button onclick="closeSuccessMessage()" class="btn-primary">Close</button>
+        </div>
+    </div>
+
+    <script src="fsbo-script.js"></script>
+</body>
+</html>
